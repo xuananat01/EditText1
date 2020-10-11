@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                     int max = Integer.parseInt(chuoi2);
 
                     if(min >= max){
-                        Toast.makeText(MainActivity.this, "Vui long nhap so nho hon so thu hai", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, "Vui long nhap so tiep theo", Toast.LENGTH_SHORT).show();
                     }else{
                         Random random = new Random();
                         int number = random.nextInt(max - min + 1) + min;
